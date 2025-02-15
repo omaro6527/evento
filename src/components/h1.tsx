@@ -2,7 +2,7 @@ import { cn } from "@/lib/utils";
 import { twMerge } from "tailwind-merge";
 
 type H1Props = {
-    className: string,
+    className?: string,
     children: React.ReactNode
     };
 
